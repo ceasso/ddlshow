@@ -1,0 +1,77 @@
+- title: 2025 秋季 Rust 编译器训练营
+  description: 2025 秋季 Rust 编译器训练营由南京大学、中国科学院软件研究所主办，华为技术有限公司全程赞助，时间定于 2025 年 8 月 4 日至 12 月 20 日。训练营面向系统编程与编译技术爱好者，通过 18 周高强度实战，培训内容包括 Rust 基础知识、编译器基本原理、Rust 编译器架构学习和 Rust 编译器实战任务四个阶段课程，目标是培养能够深入理解并贡献 Rust 编译器（rustc）源码的工程师与研究者。
+  category: activity
+  tags:
+  - Rust
+  - compiler
+  - openCamp
+  events:
+  - year: 2025
+    id: rustcompiler2025f
+    link: https://opencamp.cn/rustcompiler/camp/2025fall
+    timeline:
+    - deadline: '2025-08-15'
+      comment: 报名截止
+    - deadline: '2025-08-16'
+      comment: 开营仪式
+    - deadline: '2025-08-18'
+      comment: 基础阶段（编译原理学习）
+    - deadline: '2025-10-20'
+      comment: 专业阶段（Rust编译器架构学习）
+    - deadline: '2025-11-20'
+      comment: 项目选题
+    - deadline: '2025-11-24'
+      comment: 项目阶段
+    - deadline: '2025-12-20'
+      comment: 结营仪式
+    timezone: UTC+8
+    date: 2025年8月4日 - 12月20日
+    place: 线上
+
+
+- title: 第四届传感、测量、通信和物联网技术国际会议
+  description: The 4th International Conference on Sensing, Measurement, Communication and Internet of Things Technologies (SMC-IoT 2025) aims to bring together leading academic researchers, industry experts, and forward-thinking innovators to share their insights, experiences, and cutting-edge research in the intertwined domains of sensing technologies, precise measurement methodologies, advanced communication systems, and the rapidly expanding universe of the Internet of Things (IoT).
+  category: conference
+  tags:
+  - IoT
+  - 会议
+  - 传感
+  - 测量
+  - 通信
+  - 洛阳
+  events:
+  - year: 2025
+    id: SMC-IoT2025
+    link: https://www.smc-iot.org/
+    timeline:
+    - deadline: '2025-11-28'
+      comment: 会议开始
+    - deadline: '2025-11-30'
+      comment: 会议结束
+    timezone: UTC+8
+    date: 2025年11月28日-30日
+    place: 洛阳, 中国
+
+- title: 基于开源鸿蒙操作系统的智慧生活应用创新赛
+  description: 在数字化浪潮奔涌向前的当下，开源技术与智慧生活、智慧商超领域的融合发展，正为我们的生活带来前所未有的变革。开源鸿蒙 作为一款面向全场景的开源分布式操作系统，凭借其开源性、轻量级、分布式、统一 API 以及安全可靠等特性，为开发者们提供了广阔的创新空间。与此同时，随着消费者需求的不断升级，智慧商超也在积极探索更加高效、便捷、个性化的运营模式。为此,特设立本赛项,旨在汇聚全国的创新力量，共同推动 开源鸿蒙 在智慧生活和智慧商超领域的创新应用与发展。
+  category: competition
+  tags:
+  - OpenHarmony
+  events:
+  - year: 2025
+    id: 基于开源鸿蒙操作系统的智慧生活应用创新赛
+    link: https://competition.atomgit.com/competitionInfo?id=2103fbab7ab2f51065962aa5d9a5ac99#heading-0-0
+    timeline:
+    - deadline: '2025-07-23'
+      comment: 报名启动
+    - deadline: '2025-11-03'
+      comment: 报名&作品提交截止
+    - deadline: '2025-11-10'
+      comment: 公布晋级决赛名单
+    - deadline: '2025-11-20'
+      comment: 决赛作品提交截止（拟）
+    - deadline: '2025-11-22'
+      comment: 线上决赛路演（拟）
+    timezone: UTC+8
+    date: 2025年7月23日 - 11月30日
+    place: 线上
