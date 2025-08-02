@@ -3,33 +3,56 @@ name: 部署到 GitHub Pages
 on:
   push:
     branches: [ main, master ]  # 同时支持main和master分支触发
+  workflow_dispatch:  # 允许手动触发工作流
+
+# 设置GITHUB_TOKEN的权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # 获取完整的git历史记录，以便正确处理版本信息
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # 更新到更新的Node.js版本
-          cache: 'npm'  # 启用npm缓存，加速构建
+          node-version: '16'
+          cache: 'npm'
 
       - name: 安装依赖
-        run: npm install --legacy-peer-deps  # 使用--legacy-peer-deps解决依赖冲突问题
+        run: npm install --legacy-peer-deps
 
       - name: 构建项目
         run: npm run build
         env:
-          NODE_ENV: production  # 确保以生产模式构建
+          NODE_ENV: production
 
-      - name: 部署到 GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: 设置 Pages
+        uses: actions/configure-pages@v3
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v2
         with:
-          branch: gh-pages  # 部署到的分支
-          folder: dist      # 要部署的文件夹，Vue 项目默认是 dist
-          clean: true       # 自动清理旧文件
+          path: dist
+
+  # 部署工作流
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
