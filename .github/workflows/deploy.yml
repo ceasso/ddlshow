@@ -2,28 +2,33 @@ name: 部署到 GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # 设置要触发工作流程的分支，通常是主分支（main 或 master）
+    branches: [ main, master ]  # 同时支持main和master分支触发
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 获取完整的git历史记录，以便正确处理版本信息
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'  # 设置 Node.js 版本，可以根据项目需要调整
+          node-version: '16'  # 更新到更新的Node.js版本
+          cache: 'npm'  # 启用npm缓存，加速构建
 
       - name: 安装依赖
-        run: npm ci  # 使用 npm ci 而不是 npm install，以确保一致的安装
+        run: npm install --legacy-peer-deps  # 使用--legacy-peer-deps解决依赖冲突问题
 
       - name: 构建项目
         run: npm run build
+        env:
+          NODE_ENV: production  # 确保以生产模式构建
 
       - name: 部署到 GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # 部署到的分支
           folder: dist      # 要部署的文件夹，Vue 项目默认是 dist
