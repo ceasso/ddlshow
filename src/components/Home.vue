@@ -254,7 +254,7 @@ export default {
   data() {
     return {
       // General
-      publicPath: '/',
+      publicPath: process.env.NODE_ENV === 'production' ? '/ddlshow/' : '/',
       timeZone: '',
       input: '',
       
