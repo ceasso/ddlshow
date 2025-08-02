@@ -1,35 +1,30 @@
-name: 部署学术活动日历到 GitHub Pages
+name: 部署到 GitHub Pages
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ main ]  # 设置要触发工作流程的分支，通常是主分支（main 或 master）
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: 检出代码
-      uses: actions/checkout@v4
-      
-    - name: 设置 Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-        
-    - name: 安装依赖
-      run: npm ci
-      
-    - name: 构建项目
-      run: npm run build
-      
-    - name: 部署到 GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        cname: # 如果您有自定义域名，请在这里填写
+      - name: 检出代码
+        uses: actions/checkout@v2
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # 设置 Node.js 版本，可以根据项目需要调整
+
+      - name: 安装依赖
+        run: npm ci  # 使用 npm ci 而不是 npm install，以确保一致的安装
+
+      - name: 构建项目
+        run: npm run build
+
+      - name: 部署到 GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages  # 部署到的分支
+          folder: dist      # 要部署的文件夹，Vue 项目默认是 dist
+          clean: true       # 自动清理旧文件
