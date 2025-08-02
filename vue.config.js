@@ -1,7 +1,5 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/ddlshow/'
-        : '/',
+    publicPath: '/',  // 使用自定义域名时应该使用根路径
     assetsDir: 'static',
     pages: {
         index: {

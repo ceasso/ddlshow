@@ -254,7 +254,7 @@ export default {
   data() {
     return {
       // General
-      publicPath: process.env.NODE_ENV === 'production' ? '/ddlshow/' : '/',
+        publicPath: '/',  // 使用自定义域名时统一使用根路径
       timeZone: '',
       input: '',
       
