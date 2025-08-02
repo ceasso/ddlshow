@@ -1,4 +1,5 @@
 name: 部署到 GitHub Pages
+# 触发重新部署 - 2025-01-02
 
 on:
   push:
