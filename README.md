@@ -36,6 +36,31 @@ npm run build
 - `public/events/categories.yml` - 活动分类配置
 - `public/events/allevents.yml` - 所有学术活动数据
 
+### 添加新活动
+1. 在`public/events/allevents.yml`中添加新的活动数据。如有需要，在`public/events/categories.yml`中添加新的活动分类。
+2. 活动数据示例：
+```yaml
+- title: Rust训练营                        // 活动标题
+  description: 2025秋季Rust 编译器……       // 活动描述
+  category: activity            // 活动分类（根据`public/events/categories.yml`来进行）
+  tags:                                   // 活动标签
+  - Rust
+  - compiler
+  - openCamp
+  events:
+  - year: 2025                            // 活动年份
+    id: rustcompiler2025f                 // 活动ID
+    link: https://opencamp.cn/rustcompiler/camp/2025fall //活动对应网址的链接
+    timeline:                             // 时间表，格式如下
+    - deadline: '2025-08-15'
+      comment: 报名截止
+    - deadline: '2025-08-16'
+      comment: 开营仪式
+    timezone: UTC+8                       // 时区
+    date: 2025年8月4日 - 12月20日          // 活动日期
+    place: 线上                           // 活动地点
+```
+
 ## 🎨 界面特色
 
 - **彩色分类徽章** - 不同类型活动使用不同颜色区分
