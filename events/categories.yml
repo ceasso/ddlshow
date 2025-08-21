@@ -1,0 +1,6 @@
+- id: conference
+  name: Conference
+- id: activity
+  name: Activity
+- id: competition
+  name: Competition
