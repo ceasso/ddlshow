@@ -30,11 +30,11 @@
     timeline:
     - deadline: '2026-01-26'
       comment: 正式启动报名
-    - deadline: '2025-02-05'
+    - deadline: '2026-02-05'
       comment: 持续公开接收简历，进行筛选，确定助教（2 days）
-    - deadline: '2025-02-06'
+    - deadline: '2026-02-06'
       comment: 集训项目启动
-    - deadline: '2025-03-09'
+    - deadline: '2026-03-09'
       comment: 集训营结营，公布考核结果
     timezone: UTC+8
     date: 2026年1月26日 - 3月9日
