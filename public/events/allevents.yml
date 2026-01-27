@@ -1,3 +1,84 @@
+- title: 六期书生大模型实战营「昇腾」彩蛋闯关
+  description: 六期书生大模型实战营「昇腾」彩蛋闯关，联名周边等你来拿（Ascend NPU 算力）
+  category: activity
+  tags:
+  - 书生
+  - 昇腾
+  events:
+  - year: 2026
+    id: 六期书生大模型实战营「昇腾」彩蛋闯关
+    link: https://aicarrier.feishu.cn/wiki/OlSWwo3VAigM3ckBBRXcKV3nnPg
+    timeline:
+    - deadline: '2026-03-31'
+      comment: 活动结束
+    timezone: UTC+8
+    date: 2026年1月21日 - 3月31日
+    place: 线上
+
+- title: 飞桨启航计划（马年新春版）
+  description: 而 「启航计划（马年新春版）」 是为 寒假与春节假期 特别推出的限时版本。我们希望在年初相对集中的空闲时间里，为对开源感兴趣的开发者提供一个 低门槛、可实践 的参与机会。能让各位在春节假期中真正参与一次开源贡献，了解真实开源项目的协作方式与节奏，在新的一年，迈出属于自己的 第一步开源实践 ——这个冬天，不只是休息与团聚，也可以是你开启开源之旅的起点。
+  category: activity
+  tags:
+  - 百度
+  - paddlepaddle
+  - 实习
+  - 开源
+  events:
+  - year: 2026
+    id: 飞桨启航计划（马年新春版）
+    link: https://github.com/PaddlePaddle/Paddle/issues/77510
+    timeline:
+    - deadline: '2026-01-26'
+      comment: 正式启动报名
+    - deadline: '2025-02-05'
+      comment: 持续公开接收简历，进行筛选，确定助教（2 days）
+    - deadline: '2025-02-06'
+      comment: 集训项目启动
+    - deadline: '2025-03-09'
+      comment: 集训营结营，公布考核结果
+    timezone: UTC+8
+    date: 2026年1月26日 - 3月9日
+    place: 线上
+
+- title: 乾象投资 MetaSummer 2026 训练营
+  description: 在延续往年量化研究训练营的基础上，今年我们首次增设工程实践训练营，致力于为更多优秀同学提供深入参与真实交易策略与前沿技术实践的机会，系统提升研究与工程能力，实现跨越式成长。
+  category: activity
+  tags:
+  - 实习
+  - 金融
+  - 量化
+  events:
+  - year: 2026
+    id: 乾象投资 MetaSummer 2026 训练营
+    link: https://mp.weixin.qq.com/s?__biz=MzI4OTMwMzM1NA==&mid=2247488932&idx=1&sn=51d8186e88472916b717d60467ca00ed&chksm=ed894b97be940c04bf293ca0ff3e80e61f3c2f357290924f9c5605b8bb9cfe2c6233c374b877&mpshare=1&scene=23&srcid=0115GN2w9oaUc2GI1ACgOPHt&sharer_shareinfo=a90a92ec15b4fec034e8209cc5648af5&sharer_shareinfo_first=dfbf243e1a7a73632f6db5fc16da5773&hit_product=1&poc_token=HA_oeGmjdFHkoHTup6OICwQYe8yoDhUdwitTkegX
+    timeline:
+    - deadline: '2026-06-15'
+      comment: 开始
+    timezone: UTC+8
+    date: 2026年6月中旬
+    place: 北京+上海
+
+- title: 昇腾✖魔乐社区｜模型量化挑战赛
+  description: 本次活动聚焦模型量化与优化，鼓励开发者从提供的模型列表中自由选择，不限数量，尽情挑战。活动旨在通过实战提升开发者的模型工程化能力，并基于魔乐社区平台，为昇腾开源生态注入新的活力，同时招募一批能够进行模型量化的优秀开发者。
+  category: competition
+  tags:
+  - 昇腾
+  - Modelers
+  - 大模型
+  - 量化
+  events:
+  - year: 2026
+    id: 2026昇腾✖魔乐社区｜模型量化挑战赛
+    link: https://www.hiascend.com/zh/activities/dynamic-news/632?id=632
+    timeline:
+    - deadline: '2026-01-09'
+      comment: 报名&提交作品截止
+    - deadline: '2025-02-14'
+      comment: 评审结果公布
+    timezone: UTC+8
+    date: 2026年1月9日 - 2月14日
+    place: 线上
+
 - title: 2025 秋季 Rust 编译器训练营
   description: 2025 秋季 Rust 编译器训练营由南京大学、中国科学院软件研究所主办，华为技术有限公司全程赞助，时间定于 2025 年 8 月 4 日至 12 月 20 日。训练营面向系统编程与编译技术爱好者，通过 18 周高强度实战，培训内容包括 Rust 基础知识、编译器基本原理、Rust 编译器架构学习和 Rust 编译器实战任务四个阶段课程，目标是培养能够深入理解并贡献 Rust 编译器（rustc）源码的工程师与研究者。
   category: activity
