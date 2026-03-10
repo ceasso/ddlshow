@@ -1,0 +1,360 @@
+- title: Google Summer of Code 2026
+  description: Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.
+  category: activity
+  tags:
+  - Open Source
+  - Google
+  - GSoC
+  - Programming
+  events:
+  - year: 2026
+    id: gsoc-2026
+    link: https://summerofcode.withgoogle.com/programs/2026
+    timeline:
+    - deadline: '2026-03-17'
+      comment: 提交申请开始
+    - deadline: '2026-04-01'
+      comment: 提交申请截止
+    - deadline: '2026-05-01'
+      comment: 公布入选项目
+    - deadline: '2026-11-12'
+      comment: 项目结束
+    timezone: UTC+8
+    date: 2026年3月17日 - 11月12日
+    place: 线上
+
+- title: 2026 RISC-V 软件移植及优化挑战赛（RVSPOC）
+  description: 面向全球、致力于完善 RISC-V 软件生态的技术竞赛，包含软件移植与优化两大方向，旨在通过并鼓励开发者为 RISC-V 架构开发和优化软件，提升其生态竞争力。
+  category: competition
+  tags: 
+  - RISC-V
+  - 软件移植
+  - 优化
+  - 开源
+  events:
+  - year: 2026
+    id: rvspoc-2026
+    link: https://mp.weixin.qq.com/s/a48I5LJjlLPL8OrmcztfFg
+    timeline:
+    - deadline: '2026-01-28'
+      comment: 赞助商征集及赛题设计阶段开始
+    - deadline: '2026-03-31'
+      comment: 赞助商征集及赛题设计阶段结束
+    - deadline: '2026-04-01'
+      comment: 赛事报名及比赛阶段开始
+    - deadline: '2026-08-31'
+      comment: 赛事报名及比赛阶段截止
+    - deadline: '2026-09-20'
+      comment: 比赛结果复现
+    - deadline: '2026-09-30'
+      comment: 颁奖
+    timezone: UTC+8
+    date: 2026年4月1日 - 9月30日
+    place: 线上
+
+- title: vLLM Ascend 开源实习招募
+  description: vLLM Ascend开源实习是由Ascend携手openEuler、MindSpore等多个开源社区共同发起的线上实习项目。该项目旨在鼓励在校学生深度参与开源实践，提升技术水平与开源协作素养。
+  category: activity
+  tags: 
+  - vLLM
+  - Ascend
+  - 开源
+  - 实习机会
+  events:
+  - year: 2026
+    id: vllm-ascend-internship-2026
+    link: https://mp.weixin.qq.com/s/QMkSWEi0opp9vcmtyIDvEg
+    timeline:
+    - deadline: '2026-02-11'
+      comment: 项目招募启动
+    - deadline: '2026-08-11'
+      comment: 预计首批实习期结束
+    timezone: UTC+8
+    date: 2026年2月11日起
+    place: 线上
+
+- title: 华为算法挑战赛第36期-AI智算集群通信多平面编排难题
+  description: 本赛题旨在通过优化 AI 智算集群中的通信多平面编排，解决大规模 AI 模型训练中的算力瓶颈。涉及 PP、TP、DP 等分布式并行方式下的网络流量编排难题。
+  category: competition
+  tags:
+  - AI
+  - 算法
+  - 华为云
+  events:
+  - year: 2026
+    id: huawei-algorithm-challenge-36
+    link: https://developer.huaweicloud.com/competition/information/1300000215
+    timeline:
+    - deadline: '2026-03-15'
+      comment: 报名及作品提交截止
+    timezone: UTC+8
+    date: 2026年3月15日截止
+    place: 线上
+
+- title: 如意社区 RISC-V 训练营
+  description: 为RISC-V生态的人才培养与技术创新贡献力量。以 RISC-V 技术为纽带，链接高校教学科研需求、社区开源力量与企业产业资源，共筑 “高校-社区-企业” 协同发展的良性生态！
+  category: activity
+  tags: 
+  - RISC-V
+  - 开源
+  - 如意社区
+  - 实习机会
+  events:
+  - year: 2026
+    id: ruyi-risc-v-bootcamp
+    link: https://ruyicommunity.cn/college/bootcamp
+    timeline:
+    - deadline: '2026-01-26'
+      comment: 开营仪式
+    - deadline: '2026-01-31'
+      comment: 报名截止
+    - deadline: '2026-02-02'
+      comment: 基础课程阶段结束
+    - deadline: '2026-02-06'
+      comment: 进阶线上直播课结束
+    - deadline: '2026-02-28'
+      comment: 进阶学习与应用实践结束
+    - deadline: '2026-03-06'
+      comment: 导师审核与项目分组结束
+    - deadline: '2026-04-08'
+      comment: 分组项目完成
+    - deadline: '2026-04-10'
+      comment: 结营仪式
+    timezone: UTC+8
+    date: 2026年1月26日 - 4月10日
+    place: 线上
+
+- title: 2026 春夏季开源操作系统训练营
+  description: 开源操作系统训练营是由清华大学的陈渝老师和向勇老师于 2020 年发起，旨在通过使用 Rust 语言编写操作系统的实践，培养全国高校学生的操作系统开发技能。训练营全流程免费，指导学员参与开源项目实战，探索设计与构建新一代安全高性能操作系统。
+  category: activity
+  tags: 
+  - OS
+  - Rust
+  - 开源
+  - Linux
+  - 实习机会
+  events:
+  - year: 2026
+    id: os2edu-2026spring
+    link: https://opencamp.cn/os2edu/camp/2026spring
+    timeline:
+    - deadline: '2026-03-01'
+      comment: 训练营正式启动
+    - deadline: '2026-03-22'
+      comment: 基础阶段结束
+    - deadline: '2026-03-23'
+      comment: 专业阶段开始
+    - deadline: '2026-04-12'
+      comment: 专业阶段结束
+    - deadline: '2026-04-13'
+      comment: 项目先导阶段开始
+    - deadline: '2026-05-10'
+      comment: 项目先导阶段结束
+    - deadline: '2026-05-11'
+      comment: 项目阶段开始
+    - deadline: '2026-06-21'
+      comment: 项目阶段结束，训练营闭营
+    timezone: UTC+8
+    date: 2026年3月1日 - 6月21日
+    place: 线上
+
+- title: 辰龙机器人 2026 春季训练营
+  description: 培养具备实战能力的机器人开发者，基于辰龙AI教育机器人，打造ACT驱动的端到端具身智能拾取系统。
+  category: activity
+  tags:
+  - 机器人
+  - 具身智能
+  - 开源
+  events:
+  - year: 2026
+    id: ChenLong-S1
+    link: https://opencamp.cn/ChenLong/camp/S1
+    timeline:
+    - deadline: '2026-03-08'
+      comment: 开营启动会
+    - deadline: '2026-03-09'
+      comment: 硬件基础
+    - deadline: '2026-03-11'
+      comment: 驱动控制
+    - deadline: '2026-03-13'
+      comment: AKA-Sim平台初探
+    - deadline: '2026-03-15'
+      comment: 第一阶段分享与答疑
+    - deadline: '2026-03-16'
+      comment: ACT算法解析
+    - deadline: '2026-03-18'
+      comment: Sim平台前后端开发入门
+    - deadline: '2026-03-20'
+      comment: 代码深度剖析，项目阶段介绍
+    - deadline: '2026-03-22'
+      comment: 第二阶段分享与答疑
+    - deadline: '2026-03-23'
+      comment: 中期项目检查与问题交流
+    - deadline: '2026-03-25'
+      comment: 成果演示
+    - deadline: '2026-03-27'
+      comment: 终极成果展示
+    - deadline: '2026-03-29'
+      comment: 闭营总结会
+    timezone: UTC+8
+    date: 2026年3月8日 - 3月29日
+    place: 线上
+
+- title: 六期书生大模型实战营「昇腾」彩蛋闯关
+  description: 六期书生大模型实战营「昇腾」彩蛋闯关，联名周边等你来拿（Ascend NPU 算力）
+  category: activity
+  tags:
+  - 书生
+  - 昇腾
+  events:
+  - year: 2026
+    id: 六期书生大模型实战营「昇腾」彩蛋闯关
+    link: https://aicarrier.feishu.cn/wiki/OlSWwo3VAigM3ckBBRXcKV3nnPg
+    timeline:
+    - deadline: '2026-03-31'
+      comment: 活动结束
+    timezone: UTC+8
+    date: 2026年1月21日 - 3月31日
+    place: 线上
+
+- title: 飞桨启航计划（马年新春版）
+  description: 而 「启航计划（马年新春版）」 是为 寒假与春节假期 特别推出的限时版本。我们希望在年初相对集中的空闲时间里，为对开源感兴趣的开发者提供一个 低门槛、可实践 的参与机会。能让各位在春节假期中真正参与一次开源贡献，了解真实开源项目的协作方式与节奏，在新的一年，迈出属于自己的 第一步开源实践 ——这个冬天，不只是休息与团聚，也可以是你开启开源之旅的起点。
+  category: activity
+  tags:
+  - 百度
+  - paddlepaddle
+  - 实习
+  - 开源
+  events:
+  - year: 2026
+    id: 飞桨启航计划（马年新春版）
+    link: https://github.com/PaddlePaddle/Paddle/issues/77510
+    timeline:
+    - deadline: '2026-01-26'
+      comment: 正式启动报名
+    - deadline: '2026-02-05'
+      comment: 持续公开接收简历，进行筛选，确定助教（2 days）
+    - deadline: '2026-02-06'
+      comment: 集训项目启动
+    - deadline: '2026-03-09'
+      comment: 集训营结营，公布考核结果
+    timezone: UTC+8
+    date: 2026年1月26日 - 3月9日
+    place: 线上
+
+- title: 乾象投资 MetaSummer 2026 训练营
+  description: 在延续往年量化研究训练营的基础上，今年我们首次增设工程实践训练营，致力于为更多优秀同学提供深入参与真实交易策略与前沿技术实践的机会，系统提升研究与工程能力，实现跨越式成长。
+  category: activity
+  tags:
+  - 实习
+  - 金融
+  - 量化
+  events:
+  - year: 2026
+    id: 乾象投资 MetaSummer 2026 训练营
+    link: https://mp.weixin.qq.com/s?__biz=MzI4OTMwMzM1NA==&mid=2247488932&idx=1&sn=51d8186e88472916b717d60467ca00ed&chksm=ed894b97be940c04bf293ca0ff3e80e61f3c2f357290924f9c5605b8bb9cfe2c6233c374b877&mpshare=1&scene=23&srcid=0115GN2w9oaUc2GI1ACgOPHt&sharer_shareinfo=a90a92ec15b4fec034e8209cc5648af5&sharer_shareinfo_first=dfbf243e1a7a73632f6db5fc16da5773&hit_product=1&poc_token=HA_oeGmjdFHkoHTup6OICwQYe8yoDhUdwitTkegX
+    timeline:
+    - deadline: '2026-06-15'
+      comment: 开始
+    timezone: UTC+8
+    date: 2026年6月中旬
+    place: 北京+上海
+
+- title: 昇腾✖魔乐社区｜模型量化挑战赛
+  description: 本次活动聚焦模型量化与优化，鼓励开发者从提供的模型列表中自由选择，不限数量，尽情挑战。活动旨在通过实战提升开发者的模型工程化能力，并基于魔乐社区平台，为昇腾开源生态注入新的活力，同时招募一批能够进行模型量化的优秀开发者。
+  category: competition
+  tags:
+  - 昇腾
+  - Modelers
+  - 大模型
+  - 量化
+  events:
+  - year: 2026
+    id: 2026昇腾✖魔乐社区｜模型量化挑战赛
+    link: https://www.hiascend.com/zh/activities/dynamic-news/632?id=632
+    timeline:
+    - deadline: '2026-01-09'
+      comment: 报名&提交作品截止
+    - deadline: '2026-02-14'
+      comment: 评审结果公布
+    timezone: UTC+8
+    date: 2026年1月9日 - 2月14日
+    place: 线上
+
+- title: 2025 秋季 Rust 编译器训练营
+  description: 2025 秋季 Rust 编译器训练营由南京大学、中国科学院软件研究所主办，华为技术有限公司全程赞助，时间定于 2025 年 8 月 4 日至 12 月 20 日。训练营面向系统编程与编译技术爱好者，通过 18 周高强度实战，培训内容包括 Rust 基础知识、编译器基本原理、Rust 编译器架构学习和 Rust 编译器实战任务四个阶段课程，目标是培养能够深入理解并贡献 Rust 编译器（rustc）源码的工程师与研究者。
+  category: activity
+  tags:
+  - Rust
+  - compiler
+  - openCamp
+  events:
+  - year: 2025
+    id: rustcompiler2025f
+    link: https://opencamp.cn/rustcompiler/camp/2025fall
+    timeline:
+    - deadline: '2025-08-15'
+      comment: 报名截止
+    - deadline: '2025-08-16'
+      comment: 开营仪式
+    - deadline: '2025-08-18'
+      comment: 基础阶段（编译原理学习）
+    - deadline: '2025-10-20'
+      comment: 专业阶段（Rust编译器架构学习）
+    - deadline: '2025-11-20'
+      comment: 项目选题
+    - deadline: '2025-11-24'
+      comment: 项目阶段
+    - deadline: '2025-12-20'
+      comment: 结营仪式
+    timezone: UTC+8
+    date: 2025年8月4日 - 12月20日
+    place: 线上
+
+
+- title: 第四届传感、测量、通信和物联网技术国际会议
+  description: The 4th International Conference on Sensing, Measurement, Communication and Internet of Things Technologies (SMC-IoT 2025) aims to bring together leading academic researchers, industry experts, and forward-thinking innovators to share their insights, experiences, and cutting-edge research in the intertwined domains of sensing technologies, precise measurement methodologies, advanced communication systems, and the rapidly expanding universe of the Internet of Things (IoT).
+  category: conference
+  tags:
+  - IoT
+  - 会议
+  - 传感
+  - 测量
+  - 通信
+  - 洛阳
+  events:
+  - year: 2025
+    id: SMC-IoT2025
+    link: https://www.smc-iot.org/
+    timeline:
+    - deadline: '2025-11-28'
+      comment: 会议开始
+    - deadline: '2025-11-30'
+      comment: 会议结束
+    timezone: UTC+8
+    date: 2025年11月28日-30日
+    place: 洛阳, 中国
+
+- title: 基于开源鸿蒙操作系统的智慧生活应用创新赛
+  description: 在数字化浪潮奔涌向前的当下，开源技术与智慧生活、智慧商超领域的融合发展，正为我们的生活带来前所未有的变革。开源鸿蒙 作为一款面向全场景的开源分布式操作系统，凭借其开源性、轻量级、分布式、统一 API 以及安全可靠等特性，为开发者们提供了广阔的创新空间。与此同时，随着消费者需求的不断升级，智慧商超也在积极探索更加高效、便捷、个性化的运营模式。为此,特设立本赛项,旨在汇聚全国的创新力量，共同推动 开源鸿蒙 在智慧生活和智慧商超领域的创新应用与发展。
+  category: competition
+  tags:
+  - OpenHarmony
+  events:
+  - year: 2025
+    id: 基于开源鸿蒙操作系统的智慧生活应用创新赛
+    link: https://competition.atomgit.com/competitionInfo?id=2103fbab7ab2f51065962aa5d9a5ac99#heading-0-0
+    timeline:
+    - deadline: '2025-07-23'
+      comment: 报名启动
+    - deadline: '2025-11-03'
+      comment: 报名&作品提交截止
+    - deadline: '2025-11-10'
+      comment: 公布晋级决赛名单
+    - deadline: '2025-11-20'
+      comment: 决赛作品提交截止（拟）
+    - deadline: '2025-11-22'
+      comment: 线上决赛路演（拟）
+    timezone: UTC+8
+    date: 2025年7月23日 - 11月30日
+    place: 线上
