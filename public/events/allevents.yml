@@ -1,10 +1,32 @@
+- title: FlagOS开放计算全球挑战赛
+  description: FlagGems 作为聚焦 Triton 生态的开源算子库，旨在为大模型训练推理提供高效、通用、可扩展的算子解决方案，构建活跃且有竞争力的开源生态。本次算子开发赛道以 “赋能开源生态，吸纳核心贡献者” 为核心宗旨，面向开发者搭建技术交流与能力展示平台。
+  - Triton
+  - GPU编程
+  - 开源
+  events:
+  - year: 2026
+    id: FlagOS-2026
+    link: https://flagos.io/RaceDetail?id=295v67vw&lang=cn
+    timeline:
+    - deadline: '2026-01-09'
+      comment: 报名开始
+    - deadline: '2026-03-11'
+      comment: 算力申请截止（赛道二/三）
+    - deadline: '2026-05-20'
+      comment: 开发截止/报名截止
+    - deadline: '2026-06-10'
+      comment: 结果发布
+timezone: UTC+8
+date: 2026年1月9日 - 6月10日
+place: 线上
+    
 - title: QEMU 训练营2026
   description: 旨在搭建一个虚拟化/模拟器技术学习与实践平台，涵盖 CPU 建模、GPGPU 建模、硬件外设建模、二进制动态编译、Rust 开发等多种技术栈，助力开发者深入掌握 QEMU 等基础软件开发工具的核心能力.
   category: activity
   tags:
   - Rust 开发
   - CPU 建模
-  - GPGPU 建模
+  - GPU 建模
   - 硬件外设建模
   - 开源
   events:
