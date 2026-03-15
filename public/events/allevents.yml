@@ -1,11 +1,12 @@
-- title: Google Summer of Code 2026
-  description: Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.
+- title: QEMU 训练营2026
+  description: 旨在搭建一个虚拟化/模拟器技术学习与实践平台，涵盖 CPU 建模、GPGPU 建模、硬件外设建模、二进制动态编译、Rust 开发等多种技术栈，助力开发者深入掌握 QEMU 等基础软件开发工具的核心能力.
   category: activity
   tags:
-  - Open Source
-  - Google
-  - GSoC
-  - Programming
+  - Rust 开发
+  - CPU 建模
+  - GPGPU 建模
+  - 硬件外设建模
+  - 开源
   events:
   - year: 2026
     id: gsoc-2026
@@ -21,6 +22,37 @@
       comment: 项目结束
     timezone: UTC+8
     date: 2026年3月17日 - 11月12日
+    place: 线上
+    
+- title: Google Summer of Code 2026
+  description: Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.
+  category: activity
+  tags:
+  - Open Source
+  - Google
+  - GSoC
+  - Programming
+  events:
+  - year: 2026
+    id: rust-2026
+    link: https://opencamp.cn/gevico/camp/2026/register?code=d6EdXAxro0eFJ
+    timeline:
+    - deadline: '2026-04-05'
+      comment: 开营仪式
+    - deadline: '2026-04-26'
+      comment: 导学阶段结束
+    - deadline: '2026-05-10'
+      comment: 基础阶段结束
+    - deadline: '2026-6-14'
+      comment: 专业阶段结束
+    - deadline: '2026-6-28'
+      comment: 选题会议
+    - deadline: '2026-8-08'
+      comment: 项目阶段结束
+    - deadline: '2026-8-09'
+      comment: 结营仪式
+    timezone: UTC+8
+    date: 2026年4月05日 - 8月09日
     place: 线上
 
 - title: 2026 RISC-V 软件移植及优化挑战赛（RVSPOC）
