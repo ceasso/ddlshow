@@ -16,9 +16,9 @@
       comment: 开发截止/报名截止
     - deadline: '2026-06-10'
       comment: 结果发布
-timezone: UTC+8
-date: 2026年1月9日 - 6月10日
-place: 线上
+  timezone: UTC+8
+  date: 2026年1月9日 - 6月10日
+  place: 线上
     
 - title: QEMU 训练营2026
   description: 旨在搭建一个虚拟化/模拟器技术学习与实践平台，涵盖 CPU 建模、GPGPU 建模、硬件外设建模、二进制动态编译、Rust 开发等多种技术栈，助力开发者深入掌握 QEMU 等基础软件开发工具的核心能力.
