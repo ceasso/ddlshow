@@ -1,7 +1,7 @@
 - title: FlagOS开放计算全球挑战赛
   description: FlagGems 作为聚焦 Triton 生态的开源算子库，旨在为大模型训练推理提供高效、通用、可扩展的算子解决方案，构建活跃且有竞争力的开源生态。本次算子开发赛道以 “赋能开源生态，吸纳核心贡献者” 为核心宗旨，面向开发者搭建技术交流与能力展示平台。
   category: activity
-  tag:
+  tags:
   - Triton
   - GPU编程
   - 开源
