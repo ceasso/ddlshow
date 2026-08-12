@@ -1,3 +1,102 @@
+- title: 全国高校计算机能力挑战赛
+  description: 分为大数据、人工智能、Office、程序设计、数媒创新赛道
+  category: competition
+  tags: 
+  - Office
+  - 数媒
+  - 大数据
+  - 人工智能
+  - 收费
+  - 算法
+  events:
+  - year: 2026
+    id: ncccu2026
+    link: https://www.ncccu.org.cn/index/Index/index.html
+    timeline:
+    - deadline: '2026-11-06'
+      comment: 报名截止（各个赛项报名时间不定）
+    timezone: UTC+8
+    date: 2026年8月 - 12月
+    place: 线上
+
+
+- title: 2026华为云具身智能大赛
+  description: 华为云宣布启动首届具身智能大赛，分为线上仿真初赛及线下真机决赛两个赛段，旨在系统性拓宽具身智能在数据合成、策略训练及泛化评测等维度的技术边界。赛事基于高保真物理仿真与前沿的虚实结合技术，深度依托CloudRobo具身智能使能平台，设立了极具挑战性的单/双臂操作任务，并配套发布高质量基准数据集。
+  category: competition
+  tags:
+  - embody
+  - robotics
+  events:
+  - year: 2026
+    id: HWembody2026
+    link: https://developer.huaweicloud.com/competition/information/1300000267/introduction
+    timeline:
+    - deadline: '2026-08-30'
+      comment: 报名/作品提交截止
+  timezone: UTC+8
+  date: 2026年6月5日 - 9月下旬
+  place: 线上
+
+- title: 2026年CANN算子天梯赛
+  description: CANN 算子天梯赛，是面向全社会 AI 算子工程师的长期算子性能极限挑战赛，基于昇腾平台对算子进行长期优化打榜，按月度结算奖励性能榜首，为每一位算子开发者提供绝佳的实践平台。
+  category: competition
+  tags:
+  - CANN
+  - 算子
+  - 天梯赛
+  - 长期
+  events:
+  - year: 2026
+    id: CANN2026
+    link: https://competition.gitcode.com/competition/2057085957316272129/intro
+    timeline:
+    - deadline: '2027-06-30'
+      comment: 报名截止
+    - deadline: '2027-06-30'
+      comment: 比赛截止
+  timezone: UTC+8
+  date: 2026年5月21日 - 2027年6月30日
+  place: 线上
+
+- title: 教育信息技术应用创新大赛
+  description: 目前仅剩一个赛道可以报名，整体偏向于信创+教育
+  category: competition
+  tags:
+  - 信创
+  - 教育信息化
+  events:
+  - year: 2026
+    id: EIC.CAET2026
+    link: https://eic.caet.org.cn/portal/home
+    timeline:
+    - deadline: '2026-08-16'
+      comment: 报名截止
+  timezone: UTC+8
+  date: 2026年8月16日 - 11月15日
+  place: 线上
+
+- title: 第二十届 iCAN大学生创新创业大赛
+  description: 第二十届iCAN大学生创新创业大赛赛道分为创新赛道、创业赛道、挑战赛道，三个赛道均属于iCAN大赛的组成部分。同一人不可同时报名创新赛道和创业赛道，报名创新赛道或创业赛道可同时报名挑战赛道，挑战赛道各赛项可同时报名。同一人不得在同一赛道或赛项重复报名。
+  category: competition
+  tags:
+  - 软件开发
+  events:
+  - year: 2026
+    id: ICAN2026
+    link: https://g-ican.com/home/index
+    timeline:
+    - deadline: '2026-08-31'
+      comment: 参赛报名、作品制作、提交材料
+    - deadline: '2026-09-15'
+      comment: 校内赛
+    - deadline: '2026-10-25'
+      comment: 区域赛
+    - deadline: '2026-11-20'
+      comment: 全国总决赛
+  timezone: UTC+8
+  date: 2026年4月1日 - 11月20日
+  place: 线上
+
 - title: FlagOS开放计算全球挑战赛
   description: FlagGems 作为聚焦 Triton 生态的开源算子库，旨在为大模型训练推理提供高效、通用、可扩展的算子解决方案，构建活跃且有竞争力的开源生态。本次算子开发赛道以 “赋能开源生态，吸纳核心贡献者” 为核心宗旨，面向开发者搭建技术交流与能力展示平台。
   category: activity
